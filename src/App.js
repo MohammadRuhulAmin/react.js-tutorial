@@ -13,6 +13,9 @@ import Aynun from './components/Aynun';
 import Aynundetail  from './components/Aynundetail';
 import Counter from './components/Counter';
 import Distructure from './components/Distructure';
+import Distructureclass from './components/Distructureclass';
+import FunctionClick from './components/FunctionClick';
+import ClassClick  from './components/ClassClick';
 class App extends Component {
   render(){
     return(
@@ -32,6 +35,9 @@ class App extends Component {
        <Aynundetail/>
        <Counter/>
        <Distructure name="Ruhul Amin" email="ruhulamin.cs.dev@gmail.com"/>
+       <Distructureclass name="Aynun Jariya Mariyam" email="Mariam@gmail.com"/>
+       <FunctionClick/>
+       <ClassClick/>
       </div>
     )
   }
