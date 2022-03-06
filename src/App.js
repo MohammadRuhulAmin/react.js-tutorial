@@ -12,6 +12,7 @@ import Message from './components/Message';
 import Aynun from './components/Aynun';
 import Aynundetail  from './components/Aynundetail';
 import Counter from './components/Counter';
+import Distructure from './components/Distructure';
 class App extends Component {
   render(){
     return(
@@ -30,6 +31,7 @@ class App extends Component {
        <Aynun/>
        <Aynundetail/>
        <Counter/>
+       <Distructure name="Ruhul Amin" email="ruhulamin.cs.dev@gmail.com"/>
       </div>
     )
   }
