@@ -16,10 +16,19 @@ import Distructure from './components/Distructure';
 import Distructureclass from './components/Distructureclass';
 import FunctionClick from './components/FunctionClick';
 import ClassClick  from './components/ClassClick';
+import Myclass from './components/Myclass';
+import Eventbind from './components/Eventbind';
+import ParentComponent from './components/ParentComponent';
+import Father from './components/Father';
+import Ourfather from './components/Ourfather';
 class App extends Component {
   render(){
     return(
       <div className='App'>
+        <Ourfather/>
+        <Father/>
+        <ParentComponent/>
+        <Eventbind/>
         <Welcome2/>
         <Queen name="Aynun Jariya Mariyam Binte Ashraf " type="Queen" />
         <Actor name="Aynun Jariya " heroName = "Super Woman">
@@ -38,6 +47,7 @@ class App extends Component {
        <Distructureclass name="Aynun Jariya Mariyam" email="Mariam@gmail.com"/>
        <FunctionClick/>
        <ClassClick/>
+        <Myclass/>
       </div>
     )
   }

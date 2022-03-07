@@ -4,6 +4,7 @@ import React, { Component } from 'react'
  clickEvent(){
      console.log("clicked from class");
  }
+ 
  constructor(){
      super();
  }
