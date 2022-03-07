@@ -26,8 +26,7 @@ class Team extends Component {
             ]
         }
     }
-    render() {
-       
+    render(){
         return (
         <div>
             <select>
