@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
+import Single from './Single'
 
 class Person extends Component {
     constructor(props) {
       super(props)
-    
       this.state = {
          personInfo :[
              {
