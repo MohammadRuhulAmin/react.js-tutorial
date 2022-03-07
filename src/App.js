@@ -22,10 +22,12 @@ import ParentComponent from './components/ParentComponent';
 import Father from './components/Father';
 import Ourfather from './components/Ourfather';
 import UserGreeting from './components/UserGreeting';
+import ConditionalRendering from './components/ConditionalRendering';
 class App extends Component {
   render(){
     return(
       <div className='App'>
+        <ConditionalRendering/>
         <UserGreeting/>
         <Ourfather/>
         <Father/>
