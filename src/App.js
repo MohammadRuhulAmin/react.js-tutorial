@@ -23,10 +23,16 @@ import Father from './components/Father';
 import Ourfather from './components/Ourfather';
 import UserGreeting from './components/UserGreeting';
 import ConditionalRendering from './components/ConditionalRendering';
+import ListRendering from './components/ListRendering';
+import ListRenderingclass from './components/ListRenderingclass';
+import Person from './components/Person';
 class App extends Component {
   render(){
     return(
       <div className='App'>
+        <Person/>
+        <ListRenderingclass/>
+        <ListRendering/>
         <ConditionalRendering/>
         <UserGreeting/>
         <Ourfather/>
