@@ -24,6 +24,8 @@ import Ourfather from './components/Ourfather';
 import UserGreeting from './components/UserGreeting';
 import ConditionalRendering from './components/ConditionalRendering';
 import Stylesheet from './components/Stylesheet';
+import Form from './components/Form';
+import Form2 from './components/Form2';
 // import ListRendering from './components/ListRendering';
 // import ListRenderingclass from './components/ListRenderingclass';
 // import Person from './components/Person';
@@ -32,6 +34,8 @@ class App extends Component {
   render(){
     return(
       <div className='App'>
+        <Form2/>
+        <Form/>
         <Stylesheet isLoggedIn = {true}/>
         <Team/>
         {/* <Person/>
