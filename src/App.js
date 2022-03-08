@@ -39,11 +39,21 @@ import Table from './components/Table';
 
 // import Person from './components/Person';
 import Team from './components/Team';
+import RefsDemo from './components/RefsDemo';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+
 
 class App extends Component {
   render(){
     return(
       <div className='App'>
+        <Hero heroName="Batman"/>
+        <Hero heroName="Super Man"/>
+        <ErrorBoundary>
+            <Hero heroName="joker"/>
+        </ErrorBoundary>
+        <RefsDemo/>
         <Table/>
         <FragmentDemo/>
         <LA/>
