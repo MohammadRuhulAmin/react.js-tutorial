@@ -1,0 +1,16 @@
+Mounting : 
+    When an instance of a component is being created and inserted into the DOM 
+    Mounting has four Methods : 
+    constructor , static getDerivedStateFromProps , render , componentDidMount 
+Updating : 
+    When a component is being re-rendered as a result of changes to either its props or state 
+    Updaing has Five Methods : 
+    static getDerivedStateFromProps , shouldComponentUpdate , render , getSnapshotBeforeUpdate , componentDidUpdate 
+Unmounting : 
+    When a component is being removed from the DOM
+    Unmounting has only one Method : componentWillUnmount 
+
+Error Handling : 
+    When there is an error during rendering , in a lifecycle method , or in the constructor of any child component
+    Error Handling has two method : 
+    static getDerivedStateFromError  ,  componentDidCatch
