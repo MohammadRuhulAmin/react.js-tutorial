@@ -28,7 +28,8 @@ import Form from './components/Form';
 import Form2 from './components/Form2';
 import Form4 from './components/Form4';
 import LA from './components/LA';
-
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 // import LifecycleA from './components/LifecycleA';
 // import LifecycleAA from './components/LifecycleAA';
@@ -43,6 +44,8 @@ class App extends Component {
   render(){
     return(
       <div className='App'>
+        <Table/>
+        <FragmentDemo/>
         <LA/>
         {/* <LifecycleAA/>
         <LifecycleA/> */}
