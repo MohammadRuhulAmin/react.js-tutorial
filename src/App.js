@@ -27,14 +27,25 @@ import Stylesheet from './components/Stylesheet';
 import Form from './components/Form';
 import Form2 from './components/Form2';
 import Form4 from './components/Form4';
+import LA from './components/LA';
+
+
+// import LifecycleA from './components/LifecycleA';
+// import LifecycleAA from './components/LifecycleAA';
+
 // import ListRendering from './components/ListRendering';
 // import ListRenderingclass from './components/ListRenderingclass';
+
 // import Person from './components/Person';
 import Team from './components/Team';
+
 class App extends Component {
   render(){
     return(
       <div className='App'>
+        <LA/>
+        {/* <LifecycleAA/>
+        <LifecycleA/> */}
         <Form4/>
         <Form2/>
         <Form/>
