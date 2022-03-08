@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 class LB extends Component {
     constructor(props) {
       super(props)
@@ -13,12 +12,9 @@ class LB extends Component {
         console.log("LB = > getDerivedStateFromProps");
         return null;
     }
-    
     componentDidMount(){
         console.log("LB = >componentDidMount")
     }
-
-
   render() {
       console.log("LB => render")
     return (
@@ -26,5 +22,4 @@ class LB extends Component {
     )
   }
 }
-
 export default LB

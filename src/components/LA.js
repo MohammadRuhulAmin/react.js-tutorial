@@ -16,6 +16,17 @@ import LB from './LB';
      componentDidMound(){
          console.log("LA = > componentDidMount");
      }
+     shouldComponentUpdate(){
+         console.log('LA should component update')
+         return true;
+     }
+     getSnapshotBeforeUpdate(prevProps, prevState){
+         console.log('LA this.getSnapshotBeforeUpdate')
+         return null;
+     }
+     componentDidUpdate(){
+         console.log("LA component did update");
+     }
   render() {
       console.log("LA => render")
     return (
